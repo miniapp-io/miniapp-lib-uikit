@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author           = { 'w3bili' => 'w3bili@proton.me' }
   s.ios.deployment_target = "13.0"
   s.swift_version    = '5.0'
-  s.source           = { :git => 'https://github.com/miniapp-io/miniapp-lib-uilit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/miniapp-io/miniapp-lib-uikit.git', :tag => s.version.to_s }
 
   s.source_files = '**/*.{h,m,mm}'
   s.public_header_files = 'MiniAppUIKit.h', 'Sources/PublishHeaders/**/*.h' , 'Sources/OverlayStatusControllerImpl/**/*.h' , 'Sources/UIKitRuntimeUtils/**/*.h' , 'Sources/ObjCRuntimeUtils/**/*.h'
