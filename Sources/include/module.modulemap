@@ -1,0 +1,5 @@
+module MiniAppUIKit {
+  umbrella header "MiniAppUIKit.h"
+  export *
+  module * { export * }
+}
